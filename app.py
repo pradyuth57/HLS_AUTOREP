@@ -6,7 +6,7 @@ app = Flask(__name__)
 VERIFY_TOKEN    = os.getenv("VERIFY_TOKEN", "pradyuth-verify")
 WHATSAPP_TOKEN  = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
-WA_ID     = os.getenv("WA_ID")        # e.g. 3538xxxxxxx
+WA_ID  = os.getenv("WA_ID")        # e.g. 3538xxxxxxx
 ALLOWED_GROUP   = os.getenv("GROUP_ID")           # optional: restrict to 1 group
 
 ROSTER_REPLY = (
